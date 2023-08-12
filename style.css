@@ -23,3 +23,44 @@ h2 {
     font-weight: bolder;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
 }
+
+#know {
+    color: blanchedalmond;
+    background-color: blueviolet;
+}
+
+.dev {
+    text-align: centre;
+    color: purple;
+}
+
+body {
+    background-color: beige;
+}
+
+.help a {
+    color: maroon
+}
+
+p::first-line {
+    color: indigo;
+}
+
+a:hover {
+    text-decoration: darkslategray wavy underline;
+    color: beige;
+    background-color: brown;
+}
+
+h1::first-letter {
+    font-size: 50px;
+}
+
+h2::first-letter {
+    font-size: 40px;
+}
+
+::selection {
+    background-color: darkolivegreen;
+    color: bisque
+}
